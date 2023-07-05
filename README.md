@@ -21,3 +21,11 @@ Es una etiqueta para configurar el viewpoert, el viewport es el area visible del
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
+
+## La tecnica del Wrapper
+Considerar las fronteras del diseño(contenedor, wrapper), siempre tenemos que tener nuestra frontera un tamaño maximo y en base a ello programar, se recomienda centrar el wrapper.
+
+Poner las cosas en  un contenedor, el contenedor se tiene que distribuir en muchos lugares, no podemos asumir que solo sera una pantalla.
+
+Algunos breakpoints mas usados:
+- 320, 400, 768, 1024, 1240, 1366, 1440, 1920
