@@ -35,3 +35,29 @@ Algunos breakpoints mas usados:
 - Para poder ver los margenes, padding, usamos command + click(seleccionar el elemento)
 
 ## Creación de archivo CSS, y uso personalizado de fuentes
+Podemos crear variable de fuentes, se recomienda que en una pagina web solo haiga hasta maximo 2 tipos de fuentes.
+
+## Escribiendo nuestras primeras etiquetas HTML y estilos css del proyecto
+Para crear nuestro componentes tenemos que seguir la regla de oro
+```
+.hero => componente
+ .wrapper => wrapper
+  .hero-content => contenido
+```
+
+## Importando las imágenes en el HTML
+
+Podemo usar esto para que no se desborda la imagen.
+
+```
+.wrapper {
+  overflow: hidden;
+}
+```
+O podemos decir que la imagen tome el 100% de su contenedor
+
+```
+img {
+  max-inline-size: 100%;
+}
+```
