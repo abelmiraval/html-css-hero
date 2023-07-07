@@ -29,3 +29,9 @@ Poner las cosas en  un contenedor, el contenedor se tiene que distribuir en much
 
 Algunos breakpoints mas usados:
 - 320, 400, 768, 1024, 1240, 1366, 1440, 1920
+
+
+## Uso basico de figma
+- Para poder ver los margenes, padding, usamos command + click(seleccionar el elemento)
+
+## Creación de archivo CSS, y uso personalizado de fuentes

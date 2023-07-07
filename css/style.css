@@ -1,0 +1,9 @@
+:root {
+  --mainFont: 'Roboto', sans-serif;
+  --secondaryFont: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  margin:0;
+  font-family: var(--mainFont)
+}
