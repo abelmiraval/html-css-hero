@@ -4,6 +4,17 @@
 }
 
 body {
+  border: 10px solid red;
   margin:0;
   font-family: var(--mainFont)
+}
+
+.wrapper {
+  max-inline-size: 1024px;
+  margin: auto;
+}
+
+.hero h1 {
+  font-family: var(--secondaryFont);
+  font-size: 40px;
 }
