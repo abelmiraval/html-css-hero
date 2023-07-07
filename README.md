@@ -61,3 +61,6 @@ img {
   max-inline-size: 100%;
 }
 ```
+
+## Creación del botón y ancho máximo del contenedor
+El contenedor del contenido debe tener un ancho máximo.
