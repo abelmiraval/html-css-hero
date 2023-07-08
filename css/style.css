@@ -3,6 +3,7 @@
   --secondaryFont: 'Roboto Condensed', sans-serif;
   --primaryColor: #1B90FC;
   --white: white;
+  --black: #202020;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
 .hero p {
   font-size: 16px;
   line-height: 24px;
+  margin-block-end: 24px;
 }
 
 img {
@@ -56,9 +58,14 @@ button{
 
 .card {
   max-inline-size: 412px;
+  color: var(--white);
 }
 
 .hero {
-  block-size: 768px;
-  border: 1px solid red;
+  /* border: 10px solid red; */
+  background-color: var(--black);
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover; */
 }

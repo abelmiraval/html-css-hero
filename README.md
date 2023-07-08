@@ -80,3 +80,9 @@ La propiedad align-items alinea en el eje transversal, esta mal dicho que alinea
     align-items:center;
   }
 </pre>
+
+
+## Usando una imagen como background
+Por defecto las imagenes tienen un background-repeat y background-position, tenemos que sobreescribir dichas propiedades
+
+
