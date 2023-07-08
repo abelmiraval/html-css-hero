@@ -48,5 +48,17 @@ button{
 }
 
 .hero-content{
+  display: flex;
+  block-size: 768px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card {
   max-inline-size: 412px;
+}
+
+.hero {
+  block-size: 768px;
+  border: 1px solid red;
 }

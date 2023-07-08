@@ -64,3 +64,19 @@ img {
 
 ## Creación del botón y ancho máximo del contenedor
 El contenedor del contenido debe tener un ancho máximo.
+
+## Usando flexbox para alineacion
+En flexbox no existe vertical ni horizontal, lo que existe es eje principal y el eje transversal.
+
+El elemento que quiero hacer una alineado vertical tiene que tener un alto, asi para que se pueda alinear verticalmente.
+
+La propiedad align-items alinea en el eje transversal, esta mal dicho que alinea en el eje vertical.
+
+<pre>
+  .here-content{
+    display:flex;
+    flex-direction: column;
+    block-size: 768px;
+    align-items:center;
+  }
+</pre>
