@@ -89,3 +89,15 @@ Por defecto las imagenes tienen un background-repeat y background-position, tene
 Para poder dividir el contenido uno a lado del otro, haremos uso de la propiedad position para controlar su posición y la propiedad z-index para trabajar con el apilamiento de los elementos
 
 Por defecto los elementos tienen position:static, para poder usar z-index tenemos que cambiar el position por cualquier u otro valor (relative, sticky, absolute), tambien nos permite usar los insets, top, bottom, left, rigth.
+
+## Clip-path en CSS para hacer recortes - Parte 1
+
+<pre>clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%)</pre>
+
+El punto 0,0 sera en la parte superior (x,y)
+
+El punto 100%, 0 esto quiere decir 100% en x y 0 en y.
+
+El punto 100%, 80%, me mantengo en la parte inferior y bajo 80%
+
+El punto 0, 100%, 0 por ciento en el ejex y 100% en el eje y

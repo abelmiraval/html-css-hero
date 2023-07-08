@@ -71,6 +71,7 @@ button{
   position: absolute;
   inset-block: 0;
   z-index: 1;
+  clip-path: polygon(0 0, calc(100% - 151px) 0, 100% 100%, 0 100%);
 }
 
 .hero {
@@ -80,5 +81,6 @@ button{
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 128px), 0 100%);
   /* background-size: cover; */
 }
