@@ -85,4 +85,7 @@ La propiedad align-items alinea en el eje transversal, esta mal dicho que alinea
 ## Usando una imagen como background
 Por defecto las imagenes tienen un background-repeat y background-position, tenemos que sobreescribir dichas propiedades
 
+## Posiciones y apilamiento en CSS
+Para poder dividir el contenido uno a lado del otro, haremos uso de la propiedad position para controlar su posición y la propiedad z-index para trabajar con el apilamiento de los elementos
 
+Por defecto los elementos tienen position:static, para poder usar z-index tenemos que cambiar el position por cualquier u otro valor (relative, sticky, absolute), tambien nos permite usar los insets, top, bottom, left, rigth.
