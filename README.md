@@ -107,3 +107,18 @@ El punto 0, 100%, 0 por ciento en el ejex y 100% en el eje y
 Las imagenes svg son mas livianas ya que pesan menos, tienen mayor rendimiento de descarga.
 
 Los svg son para iconos, pensan menos y la imagen es perfecta, usan conjuntos matematicos para poder crearlos.
+
+
+## Atributo loading para la carga de imágenes
+
+Siguiendo con la optimización de nuestro sitio, este atributo loading de html con el valor lazy, nos permite mejorar el rendimiento que tendrá nuestra página web ya que cargara el recurso de la imagen según se vaya requiriendo, por lo que la primera carga del sitio será más rápida y por ende, optimizada.
+
+El lazy loading va hacer efecto simpre y cuando las imagenes estan lejos del viewport, a medida que vamos haciendo scroll
+las imagenes se iran cargando.
+
+Otra tecnica seria usar Intersection Observer.
+
+```html
+    <img src="./images/vector-1.png" loading="lazy" alt="">
+    <img src="./images/vector-2.svg" loading="lazy" alt="">
+```
