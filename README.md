@@ -101,3 +101,9 @@ El punto 100%, 0 esto quiere decir 100% en x y 0 en y.
 El punto 100%, 80%, me mantengo en la parte inferior y bajo 80%
 
 El punto 0, 100%, 0 por ciento en el ejex y 100% en el eje y
+
+## Optimización de imágenes
+
+Las imagenes svg son mas livianas ya que pesan menos, tienen mayor rendimiento de descarga.
+
+Los svg son para iconos, pensan menos y la imagen es perfecta, usan conjuntos matematicos para poder crearlos.
