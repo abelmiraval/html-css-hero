@@ -108,6 +108,13 @@ Las imagenes svg son mas livianas ya que pesan menos, tienen mayor rendimiento d
 
 Los svg son para iconos, pensan menos y la imagen es perfecta, usan conjuntos matematicos para poder crearlos.
 
+Recursos para optimizar las imagenes sin perder calidad:
+
+[https://tinypng.com/](https://tinypng.com/)
+
+Nos permite comprimir la imagen y tambien cambiar el tipo de archivo: jpg, webp avif. Las webp y avif son formatos con menor peso sin perder calidad de la imagen.
+
+https://squoosh.app/
 
 ## Atributo loading para la carga de imágenes
 
@@ -122,3 +129,9 @@ Otra tecnica seria usar Intersection Observer.
     <img src="./images/vector-1.png" loading="lazy" alt="">
     <img src="./images/vector-2.svg" loading="lazy" alt="">
 ```
+
+## Entendiendo el apilamiento de CSS
+Ya sea que estemos trabajando con una posición diferente a static o trabajemos con un display de flex, vamos a tener acceso a modificar el apilamiento que tienen los elementos en el eje z (hay más formas de obtener acceso a dicho apilamiento).
+
+
+[stack content css](https://developer.mozilla.org/es/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context)
