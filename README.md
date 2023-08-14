@@ -3,12 +3,12 @@
 ## Entendiendo la composición de un archivo HTML
 En que idioma esta la pagina, en este caso esta en ingles.
 ```html
- <html lang="en">
+<html lang="en">
 ```
 
 En la etiqueta head va toda la configuracion de metadatos, que haran una configuracion global de la pagina.
 ```html
- <head></head>
+<head></head>
 ```
 
 ## ¿Qué contiene la etiqueta head de mi HTML?
@@ -126,8 +126,9 @@ las imagenes se iran cargando.
 Otra tecnica seria usar Intersection Observer.
 
 ```html
-    <img src="./images/vector-1.png" loading="lazy" alt="">
-    <img src="./images/vector-2.svg" loading="lazy" alt="">
+<img src="./images/vector-1.png" loading="lazy" alt="">
+
+<img src="./images/vector-2.svg" loading="lazy" alt="">
 ```
 
 ## Entendiendo el apilamiento de CSS
