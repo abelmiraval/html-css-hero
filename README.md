@@ -1,18 +1,18 @@
 # Hero UI
 
 ## Entendiendo la composición de un archivo HTML
-En que idioma esta la pagina, en este caso esta en ingles
+En que idioma esta la pagina, en este caso esta en ingles.
 ```html
  <html lang="en">
 ```
 
-En la etiqueta head va toda la configuracion de metadatos, que haran una configuracion global de la pagina
+En la etiqueta head va toda la configuracion de metadatos, que haran una configuracion global de la pagina.
 ```html
  <head></head>
 ```
 
 ## ¿Qué contiene la etiqueta head de mi HTML?
-Es la codificacion de caracteres que vamos a tener en nuestro sitio web, UTF-8 para agregar  Ñ, tildes
+Es la codificacion de caracteres que vamos a tener en nuestro sitio web, UTF-8 para agregar  Ñ, tildes.
 ```html
 <meta charset="UTF-8">
 ```
@@ -32,13 +32,13 @@ Algunos breakpoints mas usados:
 
 
 ## Uso basico de figma
-- Para poder ver los margenes, padding, usamos command + click(seleccionar el elemento)
+- Para poder ver los margenes, padding, usamos command + click(seleccionar el elemento).
 
 ## Creación de archivo CSS, y uso personalizado de fuentes
 Podemos crear variable de fuentes, se recomienda que en una pagina web solo haiga hasta maximo 2 tipos de fuentes.
 
 ## Escribiendo nuestras primeras etiquetas HTML y estilos css del proyecto
-Para crear nuestro componentes tenemos que seguir la regla de oro
+Para crear nuestro componentes tenemos que seguir la regla de oro.
 ```
 .hero => componente
  .wrapper => wrapper
@@ -49,14 +49,14 @@ Para crear nuestro componentes tenemos que seguir la regla de oro
 
 Podemo usar esto para que no se desborda la imagen.
 
-```
+```css
 .wrapper {
   overflow: hidden;
 }
 ```
-O podemos decir que la imagen tome el 100% de su contenedor
+O podemos decir que la imagen tome el 100% de su contenedor.
 
-```
+```css
 img {
   max-inline-size: 100%;
 }
@@ -72,35 +72,35 @@ El elemento que quiero hacer una alineado vertical tiene que tener un alto, asi 
 
 La propiedad align-items alinea en el eje transversal, esta mal dicho que alinea en el eje vertical.
 
-<pre>
-  .here-content{
-    display:flex;
-    flex-direction: column;
-    block-size: 768px;
-    align-items:center;
-  }
-</pre>
+```css
+.hero-content{
+  display:flex;
+  flex-direction: column;
+  block-size: 768px;
+  align-items:center;
+}
+```
 
 
 ## Usando una imagen como background
-Por defecto las imagenes tienen un background-repeat y background-position, tenemos que sobreescribir dichas propiedades
+Por defecto las imagenes tienen un background-repeat y background-position, tenemos que sobreescribir dichas propiedades.
 
 ## Posiciones y apilamiento en CSS
-Para poder dividir el contenido uno a lado del otro, haremos uso de la propiedad position para controlar su posición y la propiedad z-index para trabajar con el apilamiento de los elementos
+Para poder dividir el contenido uno a lado del otro, haremos uso de la propiedad position para controlar su posición y la propiedad z-index para trabajar con el apilamiento de los elementos.
 
 Por defecto los elementos tienen position:static, para poder usar z-index tenemos que cambiar el position por cualquier u otro valor (relative, sticky, absolute), tambien nos permite usar los insets, top, bottom, left, rigth.
 
 ## Clip-path en CSS para hacer recortes - Parte 1
 
-<pre>clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%)</pre>
+<code>clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%)</code>
 
-El punto 0,0 sera en la parte superior (x,y)
+El punto 0,0 sera en la parte superior (x,y).
 
 El punto 100%, 0 esto quiere decir 100% en x y 0 en y.
 
-El punto 100%, 80%, me mantengo en la parte inferior y bajo 80%
+El punto 100%, 80%, me mantengo en la parte inferior y bajo 80%.
 
-El punto 0, 100%, 0 por ciento en el ejex y 100% en el eje y
+El punto 0, 100%, 0 por ciento en el ejex y 100% en el eje y.
 
 ## Optimización de imágenes
 
@@ -136,4 +136,4 @@ Ya sea que estemos trabajando con una posición diferente a static o trabajemos 
 Tener en cuenta tambien el orden de apilamiento de los elementos, conforme se vayan agregando se iran apilando.
 
 
-[stack content css](https://developer.mozilla.org/es/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context)
+[Stack content css](https://developer.mozilla.org/es/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context)
